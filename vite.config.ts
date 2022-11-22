@@ -7,7 +7,7 @@ import vercel from "solid-start-vercel";
 export default defineConfig(() => {
   dotenv.config();
   return {
-    plugins: [solid({ ssr: true, adapter: vercel({ edge: false }) })],
+    plugins: [solid({ ssr: false, adapter: vercel({ edge: false }) })],
   };
 });
   
