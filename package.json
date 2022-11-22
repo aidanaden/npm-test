@@ -2,7 +2,7 @@
   "name": "npm-prisma",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "npm run generate && solid-start build",
+    "build": "npm run push && npm run generate && solid-start build",
     "start": "solid-start start",
     "lint": "eslint --fix \"**/*.{ts,tsx,js,jsx}\"",
     "push": "prisma db push",
